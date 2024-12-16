@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22661.1%22%20viewBox%3D%220%200%201440%20661.1%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20rgb%280%2C%20128%2C%2096%29%20%21important%3B%20%7D%3C%2Fstyle%3E%3Cpath%20fill%3D%22rgb%280%2C%20128%2C%2096%29%22%20d%3D%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22%2F%3E%3C%2Fsvg%3E");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+nav .shopi {
+    color: white;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 0px 0px 0px -26px;
+    font-weight: 700;
+}
+
+nav svg {
+    height: 38px;
+    fill: #ffffff;
+}
+
+.text {
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.text h1 {
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.text p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    margin: 30px;
+}
+
+.input {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: -34px;
+}
+
+input {
+    height: 20px;
+    background-color: white;
+    font-size: 16px;
+    padding: 15px 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.input button {
+    padding: 16px 29px;
+    font-size: 16px;
+    background-color: #212326;
+    color: white;
+    border: 2px solid #212326;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: -26px;
+    font-size: small;
+}
+
+.pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pics img {
+    height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .pics img {
+        max-width: 90vw;
+    }
+
+    .text h1 {
+        font-size: 28px;
+        max-width: 91vw;
+
+    }
+
+    .text p {
+        max-width: 90vw;
+        font-size: 16px;
+    }
+
+    .input input {
+        max-width: 90vw;
+        width: 316px;
+    }
+
+    .input button {
+        max-width: 90vw;
+        margin: -27px 29px 23px;
+        width: 353px;
+    }
+
+    .input {
+        margin: 3px;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .pics img {
+        height: 266px;
+        width: 375px;
+    }
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 85px 147px */
+    grid-template-columns: 359px 337px 331px;
+        justify-content: center;
+        margin: 155px 
+
+}
+
+.box {
+    width: 285px;
+    position: relative;
+}
+
+.box h2 {
+    font-size: 18px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #6b718c;
+}
+
+.box img {
+    height: 31px;
+    width: 32px;
+    margin: 0px 0px 17px;
+}
+
+.line1 {
+    width: 908px;
+    background-color: black;
+    position: relative;
+    left: 175px;
+    height: 1px;
+    margin: 30px 0px;
+    background-color: #d2d5d9;
+}
+
+.line2 {
+    width: 908px;
+    background-color: black;
+    position: relative;
+    left: 175px;
+    height: 1px;
+    margin: 30px 0px 163px;
+    background-color: #d2d5d9;
+}
+
+.nike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+}
+
+.logos ul img {
+    height: 80px;
+    opacity: 0.8;
+}
+
+
+.foot {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+footer .btn {
+    height: 39px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 33px;
+}
+
+.btn>button {
+    height: 45px;
+    width: 145px;
+    background-color: #008060;
+    border: 2px solid #008060;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.foot>p {
+    margin: 2px;
+}
+
+.foot :last-child {
+    margin: 25px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.anchor {
+    justify-content: end;
+    display: flex;
+    margin: 134px 167px 24px 48px;
+}
+
+.anchor a {
+    color: #008060;
+    margin: 0px 8px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .anchor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 4px;
+    }
+
+    .logos ul img {
+        width: 107px;
+        height: 50px;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60vw
+    }
+
+    .box {
+        width: 720px;
+        flex-wrap: wrap;
+        margin: 9px 380px 12px 11px;
+    }
+
+    .box h2 {
+        width: 248px;
+    }
+
+    .box p {
+        width: 83vw;
+    }
+
+    .line1 {
+        left: 81px;
+    }
+
+    .line2 {
+        left: 81px;
+
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    /* .grid {
+        margin: 120px;
+        max-width: 90vw;
+    }
+
+    .box {
+        font-size: 10px;
+        max-width: 90vw;
+    } */
+
+    .grid{
+        grid-template-columns: 333px 302px auto;    }
+    .line1 {
+        max-width: 68vw;
+    }
+
+    .line2 {
+        max-width: 68vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .box {
+        width: 18vw;
+    }
+}
